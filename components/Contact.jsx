@@ -10,7 +10,7 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="text-center text-gray-600 mb-12">
-          Have questions, feedback, or need help with your order? We're here for you!
+          Have questions, feedback, or need help with your order? We&rsquo;re here to help you!
         </p>
 
         {/* Main Container Card */}

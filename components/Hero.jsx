@@ -1,32 +1,36 @@
+import React from "react";
+
 export default function Hero() {
   return (
-    <section id="home" className="px-10 pt-32 pb-20 flex flex-col md:flex-row items-center gap-10">
-      <div className="flex-1">
-        <h1 className="text-5xl font-extrabold mb-6 leading-tight">
-          Delicious Food <br /> Delivered To <br /> Your Doorstep
-        </h1>
+    <section className="bg-white py-24">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-        <p className="text-gray-600 text-lg mb-8">
-          Order from your favorite restaurants with fast delivery.
-          Hot, fresh meals delivered right to you.
-        </p>
+        {/* LEFT SIDE TEXT */}
+        <div>
+          <h1 className="text-5xl font-bold leading-tight mb-6">
+            Delicious Food Delivered Fast &amp; Fresh
+          </h1>
 
-        <div className="flex gap-5">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-lg font-semibold">
+          <p className="text-lg text-gray-600 mb-8">
+            Your favorite meals delivered hot and fresh right to your doorstep. Fast delivery, great taste, and top-notch service &mdash; every time!
+          </p>
+
+          <a
+            href="#popular"
+            className="px-8 py-4 bg-orange-600 text-white rounded-xl text-lg font-semibold hover:bg-orange-700 transition"
+          >
             Order Now
-          </button>
-          <button className="bg-black text-white px-7 py-3 rounded-lg font-semibold">
-            Download App
-          </button>
+          </a>
         </div>
-      </div>
 
-      <div className="flex-1 flex justify-center">
-        <img 
-  src="/mobile-app-mockup-showing-food-delivery-interface.jpg"
-  alt="Food App"
-  className="rounded-xl shadow-lg w-[450px]"
-/>
+        {/* RIGHT SIDE IMAGE */}
+        <div className="flex justify-center">
+          <img
+            src="/mobile-app-mockup-showing-food-delivery-interface.jpg"
+            alt="Food Delivery App"
+            className="w-full max-w-md rounded-2xl shadow-xl"
+          />
+        </div>
 
       </div>
     </section>
