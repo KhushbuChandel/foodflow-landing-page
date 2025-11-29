@@ -2,17 +2,18 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="bg-white py-24">
+    <section id="home" className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-        {/* LEFT SIDE TEXT */}
+        {/* LEFT TEXT */}
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            Delicious Food Delivered Fast &amp; Fresh
+            Delicious Food Delivered Fast & Fresh
           </h1>
 
           <p className="text-lg text-gray-600 mb-8">
-            Your favorite meals delivered hot and fresh right to your doorstep. Fast delivery, great taste, and top-notch service &mdash; every time!
+            Your favorite meals delivered hot and fresh right to your doorstep.
+            Fast delivery, great taste, and top-notch service — every time!
           </p>
 
           <a
@@ -23,11 +24,11 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* RIGHT SIDE IMAGE */}
+        {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
             src="/mobile-app-mockup-showing-food-delivery-interface.jpg"
-            alt="Food Delivery App"
+            alt="Food Delivery App Interface"
             className="w-full max-w-md rounded-2xl shadow-xl"
           />
         </div>

@@ -11,6 +11,7 @@ export default function Footer() {
             </div>
             <h1 className="text-xl font-bold">FoodFlow</h1>
           </div>
+
           <p className="text-white/70">
             Delivering happiness one meal at a time. Order from the best
             restaurants in your city.

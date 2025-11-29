@@ -9,14 +9,15 @@ export default function Contact() {
         <h2 className="text-4xl font-bold text-center mb-4">
           Get In Touch
         </h2>
+
         <p className="text-center text-gray-600 mb-12">
-          Have questions, feedback, or need help with your order? We&rsquo;re here to help you!
+          Have questions, feedback, or need help with your order? We&apos;re here to help you!
         </p>
 
         {/* Main Container Card */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 bg-white p-10 rounded-2xl shadow-xl">
 
-          {/* LEFT SIDE — CONTACT INFO */}
+          {/* LEFT SIDE - CONTACT INFO */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
@@ -50,7 +51,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* RIGHT SIDE — CONTACT FORM */}
+          {/* RIGHT SIDE - CONTACT FORM */}
           <div>
             <form className="space-y-6">
 
