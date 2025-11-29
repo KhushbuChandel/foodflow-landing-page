@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -59,14 +60,16 @@ export default function Testimonials() {
               </div>
 
               {/* Review */}
-              <p className="text-gray-600 mb-6">"{item.review}"</p>
+              <p className="text-gray-600 mb-6">&quot;{item.review}&quot;</p>
 
               {/* User */}
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   src={item.img}
                   alt={item.name}
-                  className="w-12 h-12 rounded-full object-cover"
+                  width={48}
+                  height={48}
+                  className="rounded-full object-cover"
                 />
                 <div>
                   <h4 className="font-semibold">{item.name}</h4>
